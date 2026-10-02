@@ -28,7 +28,7 @@ async function start() {
     console.log("Database synced");
 
     app.listen(config.port, () => {
-      console.log(`Server running on port ${config.port}`);
+      console.log(`Server running on port ${5432}`);
     });
   } catch (err) {
     console.error("Unable to start server:", err);
