@@ -1,0 +1,21 @@
+{
+  "name": "licensing-api",
+  "version": "1.0.0",
+  "description": "HWID-locked software licensing API (single activation, always online)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "pg": "^8.13.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
